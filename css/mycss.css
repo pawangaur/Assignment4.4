@@ -1,0 +1,26 @@
+
+
+.mydiv img:hover {
+border-radius: 10px;			
+box-shadow: 0 10px 8px 8px black;
+
+	-webkit-transition: 3s linear;
+	-moz-transition: 3s linear;
+	-o-transition: 3s linear;
+	-ms-transition: 3s linear;
+	transition: 3s linear;
+}
+.mydiv img {
+	border:2px solid;
+	padding: 10px;
+	position: relative;
+    animation-name:bycycle;
+    animation-duration:10s;
+    animation-delay:1s;
+    animation-timing-function:ease-in;
+	animation-iteration-count:infinite;
+}
+@keyframes bycycle{
+	from{left:0px;}
+	to{left:500px;}
+}
